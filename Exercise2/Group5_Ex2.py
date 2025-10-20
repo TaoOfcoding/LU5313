@@ -103,4 +103,4 @@ for solution in solutions:
             print(f"\nANSWER: The {person} owns the fish!")
             break
 
-print("\nThe German keeps the fish.")
+#print("\nThe German keeps the fish.")
