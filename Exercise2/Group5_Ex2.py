@@ -33,7 +33,7 @@ problem.addConstraint(lambda b, r: b == r, ("Brit", "red"))
 problem.addConstraint(lambda s, d: s == d, ("Swede", "dog")) 
 #3	The Dane drinks tea
 problem.addConstraint(lambda d, t: d == t, ("Dane", "tea"))
-#4	The green house is on the left of the white house
+#4	The green house is directly to the left of the white house
 problem.addConstraint(lambda g, w: w - g == 1, ("green", "white")) 
 #5	The green house owner drinks coffee
 problem.addConstraint(lambda g, c: g == c, ("green", "coffee")) 
